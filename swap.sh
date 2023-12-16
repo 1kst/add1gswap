@@ -11,7 +11,7 @@ fi
 
 # 创建SWAP文件
 echo "正在创建SWAP文件..."
-fallocate -l 2G /swapfile  # 可以根据需要调整SWAP文件的大小
+fallocate -l 1G /swapfile  # 可以根据需要调整SWAP文件的大小
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
