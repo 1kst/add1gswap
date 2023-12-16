@@ -6,5 +6,4 @@
 
 一键脚本：
 
-```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/1kst/add1gswap/main/swap.sh)"
