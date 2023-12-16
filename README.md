@@ -4,3 +4,5 @@
 适用于debian
 
 一键脚本：
+
+'''bash -c "$(curl -fsSL https://raw.githubusercontent.com/1kst/add1gswap/main/swap.sh)"'''
